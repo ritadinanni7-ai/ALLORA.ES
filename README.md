@@ -1074,179 +1074,367 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
 </section>
 
 <!-- Panel de presupuesto de dmkt -->
-<section class="section" id="panel-integral" style="padding-top:0">
-  <style>
-    .panel-integral-card{background:rgba(255,255,255,.75);backdrop-filter:blur(14px);border-radius:20px;padding:24px;border:1px solid rgba(255,255,255,.7);box-shadow:0 4px 30px rgba(0,0,0,.06)}
-    .panel-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:28px 0}
-    .panel-kpi{border-top:4px solid #5cb89b}
-    .panel-kpi.red{border-top-color:#f43f5e}
-    .panel-kpi .label{font-size:11px;font-weight:700;color:#7a9a8e;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px}
-    .panel-kpi .value{font-size:30px;font-weight:700;color:#1a3328}
-    .panel-kpi.red .value{color:#f43f5e}
-    .panel-table-wrap{overflow-x:auto}
-    .panel-table{width:100%;border-collapse:collapse;min-width:980px}
-    .panel-table th{padding:12px 14px;text-align:left;font-size:10px;font-weight:700;text-transform:uppercase;color:#5cb89b;background:rgba(92,184,155,.06);border-bottom:1px solid rgba(92,184,155,.12)}
-    .panel-table td{padding:14px;font-size:13px;color:#1a3328;border-bottom:1px solid rgba(92,184,155,.08)}
-    .panel-total{background:rgba(92,184,155,.08);font-weight:700;color:#3a7a6a}
-    .panel-charts{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:28px}
-    .panel-chart-box{height:300px}
-    @media(max-width:900px){
-      .panel-kpis,.panel-charts{grid-template-columns:1fr}
+<div class="table-wrapper">
+  <table class="finance-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>ENERO</th>
+        <th>FEBRERO</th>
+        <th>MARZO</th>
+        <th>ABRIL</th>
+        <th>MAYO</th>
+        <th>JUNIO</th>
+        <th>JULIO</th>
+        <th>AGOSTO</th>
+        <th>SEPTIEMBRE</th>
+        <th>OCTUBRE</th>
+        <th>NOVIEMBRE</th>
+        <th>DICIEMBRE</th>
+        <th>TOTAL 2026</th>
+        <th>2027</th>
+        <th>2028</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <!-- SEZIONE ENTRATE -->
+      <tr class="section-row income" data-toggle="income">
+        <td><button class="toggle">+</button> TOTAL INGRESOS</td>
+        <td>-</td><td>-</td><td>€701,60</td><td>€3.465,00</td><td>€6.300,00</td>
+        <td>€8.032,50</td><td>€54.495,00</td><td>€48.037,50</td>
+        <td>€33.862,50</td><td>€61.056,75</td><td>€70.269,00</td>
+        <td>€92.737,50</td><td>€378.957,35</td><td>€947.393,38</td><td>€1.610.568,74</td>
+      </tr>
+
+      <tr class="child income-child">
+        <td>VENTAS POR E-COMMERCE</td>
+        <td>-</td><td>-</td><td>4</td><td>21</td><td>38</td><td>50</td><td>291</td>
+        <td>215</td><td>130</td><td>229</td><td>326</td><td>449</td>
+        <td>1753</td><td>4382,5</td><td>7450,25</td>
+      </tr>
+
+      <tr class="child income-child">
+        <td>INGRESOS POR E-COMMERCE</td>
+        <td>-</td><td>-</td><td>€701,60</td><td>€3.307,50</td><td>€5.985,00</td>
+        <td>€7.875,00</td><td>€45.832,50</td><td>€33.862,50</td>
+        <td>€20.475,00</td><td>€36.425,00</td><td>€52.419,00</td>
+        <td>€72.507,50</td><td>€279.391,10</td><td>€698.477,75</td><td>€1.187.412,18</td>
+      </tr>
+
+      <tr class="child income-child">
+        <td>VENTAS POR AFILIACIÓN</td>
+        <td>-</td><td>-</td><td>-</td><td>1</td><td>2</td><td>1</td><td>55</td>
+        <td>90</td><td>85</td><td>95</td><td>-</td><td>-</td>
+        <td>329</td><td>822,5</td><td>1398,25</td>
+      </tr>
+
+      <!-- SEZIONE COSTI VARIABILI -->
+      <tr class="section-row variable" data-toggle="variable">
+        <td><button class="toggle">+</button> TOTAL COSTES VARIABLES</td>
+        <td>€5.600,00</td><td>€1.000,00</td><td>€3.000,00</td><td>€2.551,77</td>
+        <td>€2.602,00</td><td>€3.551,77</td><td>€14.547,05</td><td>€5.799,00</td>
+        <td>€5.000,31</td><td>€8.768,10</td><td>€7.600,00</td><td>€8.550,00</td>
+        <td>€68.570</td><td>€104.780</td><td>€149.960</td>
+      </tr>
+
+      <tr class="child variable-child">
+        <td>PAID MEDIA</td>
+        <td>€1.000,00</td><td>€1.000,00</td><td>€3.000,00</td><td>€2.500,00</td>
+        <td>€2.500,00</td><td>€3.500,00</td><td>€7.500,00</td><td>€500,00</td>
+        <td>€300,00</td><td>€1.050,00</td><td>€4.500,00</td><td>€5.000,00</td>
+        <td>€32.350</td><td>€48.525</td><td>€58.230</td>
+      </tr>
+
+      <tr class="child variable-child">
+        <td>GOOGLE ADS</td>
+        <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        <td>€700,00</td><td>€640,00</td><td>€300,00</td><td>€800,00</td>
+        <td>€1.000,00</td><td>€1.400,00</td><td>€4.840</td><td>€7.260</td><td>€9.438</td>
+      </tr>
+
+      <tr class="child variable-child">
+        <td>INFLUENCER MARKETING</td>
+        <td>€3.000,00</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        <td>€3.500,00</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        <td>€6.500</td><td>€9.750</td><td>€16.575</td>
+      </tr>
+
+      <!-- SEZIONE COSTI FISSI -->
+      <tr class="section-row fixed" data-toggle="fixed">
+        <td><button class="toggle">+</button> TOTAL COSTES FIJOS</td>
+        <td>€800,00</td><td>€800,00</td><td>€3.300,00</td><td>€12.502,00</td>
+        <td>€3,00</td><td>€2,00</td><td>€8.879,00</td><td>€328,00</td>
+        <td>€221,00</td><td>€4.085,00</td><td>€210,00</td><td>€300,00</td>
+        <td>€31.430</td><td>€55.435</td><td>€86.358</td>
+      </tr>
+
+      <tr class="child fixed-child">
+        <td>MAILCHIMP</td>
+        <td>-</td><td>-</td><td>-</td><td>€10.000,00</td><td>-</td><td>-</td>
+        <td>€4.850,00</td><td>-</td><td>-</td><td>€2.350,00</td><td>-</td><td>-</td>
+        <td>€17.200</td><td>€43.000</td><td>€73.100</td>
+      </tr>
+
+      <tr class="child fixed-child">
+        <td>AGENCIA SEO</td>
+        <td>€800,00</td><td>€800,00</td><td>€800,00</td><td>-</td><td>-</td><td>-</td>
+        <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+        <td>€2.400</td><td>€2.400</td><td>€2.400</td>
+      </tr>
+
+      <!-- RIEPILOGO -->
+      <tr class="summary">
+        <td>Total ingresos</td>
+        <td>-</td><td>-</td><td>€701,60</td><td>€3.465,00</td><td>€6.300,00</td>
+        <td>€8.032,50</td><td>€54.495,00</td><td>€48.037,50</td>
+        <td>€33.862,50</td><td>€61.056,75</td><td>€70.269,00</td>
+        <td>€92.737,50</td><td>€378.957,35</td><td>€947.393,38</td><td>€1.610.568,74</td>
+      </tr>
+
+      <tr class="summary">
+        <td>Total costes</td>
+        <td>€6.400,00</td><td>€1.800,00</td><td>€6.300,00</td><td>€15.053,77</td>
+        <td>€2.605,00</td><td>€3.553,77</td><td>€23.426,05</td><td>€6.127,00</td>
+        <td>€5.221,31</td><td>€12.853,10</td><td>€7.810,00</td><td>€8.850,00</td>
+        <td>€100.000</td><td>€160.215</td><td>€236.317</td>
+      </tr>
+
+      <tr class="summary">
+        <td>Utilidad</td>
+        <td>-€6.400,00</td><td>-€1.800,00</td><td>-€5.598,40</td><td>-€11.588,77</td>
+        <td>€3.695,00</td><td>€4.478,73</td><td>€31.068,95</td><td>€41.910,50</td>
+        <td>€28.641,19</td><td>€48.203,65</td><td>€62.459,00</td><td>€83.887,50</td>
+        <td>€278.957,35</td><td>€787.178,38</td><td>€1.374.251,74</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #333;
+    font-family: Arial, sans-serif;
+  }
+
+  .finance-table {
+    width: 100%;
+    min-width: 1500px;
+    border-collapse: collapse;
+    font-size: 13px;
+    color: #111;
+  }
+
+  .finance-table th,
+  .finance-table td {
+    border: 1px solid #999;
+    padding: 4px 6px;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .finance-table th:first-child,
+  .finance-table td:first-child {
+    text-align: left;
+    min-width: 300px;
+    position: sticky;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+  }
+
+  .finance-table thead th {
+    background: #f5f5f5;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .section-row {
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .section-row td:first-child {
+    background: inherit;
+  }
+
+  .income {
+    background: #a8c995;
+  }
+
+  .variable,
+  .fixed {
+    background: #c9a0b5;
+  }
+
+  .summary {
+    font-weight: 700;
+    background: #fafafa;
+  }
+
+  .toggle {
+    width: 22px;
+    height: 22px;
+    margin-right: 6px;
+    border: 1px solid #555;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .child {
+    display: none;
+  }
+
+  .child.is-visible {
+    display: table-row;
+  }
+
+  @media (max-width: 768px) {
+    .finance-table {
+      font-size: 12px;
+      min-width: 1200px;
     }
-  </style>
 
-  <span class="chapter-label anim">Finanzas</span>
-  <h2 class="section-title anim">Panel Integral de Presupuesto y Rendimiento de Marketing</h2>
-  <p class="section-sub anim">
-    Dashboard interactivo del presupuesto anual con desglose mensual, KPIs en tiempo real.
-  </p>
+    .finance-table th,
+    .finance-table td {
+      padding: 4px;
+    }
+  }
+</style>
 
-  <div class="panel-kpis anim d2">
-    <div class="panel-integral-card panel-kpi">
-      <div class="label">Total Ingresos</div>
-      <div class="value">€378.957</div>
-    </div>
+<script>
+  document.querySelectorAll(".section-row").forEach(function (row) {
+    row.addEventListener("click", function () {
+      const group = row.dataset.toggle;
+      const children = document.querySelectorAll("." + group + "-child");
+      const button = row.querySelector(".toggle");
 
-    <div class="panel-integral-card panel-kpi red">
-      <div class="label">Total Costes</div>
-      <div class="value">€100.000</div>
-    </div>
-
-    <div class="panel-integral-card panel-kpi">
-      <div class="label">ROI</div>
-      <div class="value" style="color:#5cb89b">278.96%</div>
-    </div>
-
-    <div class="panel-integral-card panel-kpi">
-      <div class="label">ROAS</div>
-      <div class="value">5.53x</div>
-    </div>
-  </div>
-
-  <div class="panel-integral-card anim d3">
-    <h3 style="font-family:'Lora',serif;font-size:22px;margin-bottom:18px;color:#3a7a6a">
-      A · Ingresos
-    </h3>
-
-    <div class="panel-table-wrap">
-      <table class="panel-table">
-        <thead>
-          <tr>
-            <th>Concepto</th>
-            <th>Ene</th><th>Feb</th><th>Mar</th><th>Abr</th>
-            <th>May</th><th>Jun</th><th>Jul</th><th>Ago</th>
-            <th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th>
-            <th>Total</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>Ingresos e-commerce</td>
-            <td>-</td><td>€702</td><td>€3.308</td><td>€5.985</td>
-            <td>€7.875</td><td>€45.833</td><td>€33.863</td><td>€20.475</td>
-            <td>€36.426</td><td>€52.419</td><td>€72.508</td><td>-</td>
-            <td><strong>€279.391</strong></td>
-          </tr>
-
-          <tr>
-            <td>Ingresos afiliación</td>
-            <td>-</td><td>€158</td><td>€315</td><td>€318</td>
-            <td>€158</td><td>€8.663</td><td>€14.175</td><td>€13.388</td>
-            <td>€14.963</td><td>-</td><td>-</td><td>-</td>
-            <td><strong>€51.818</strong></td>
-          </tr>
-
-          <tr class="panel-total">
-            <td>TOTAL INGRESOS</td>
-            <td>-</td><td>€860</td><td>€3.623</td><td>€6.303</td>
-            <td>€8.033</td><td>€54.496</td><td>€48.038</td><td>€43.532</td>
-            <td>€69.239</td><td>€72.649</td><td>€120.257</td><td>-</td>
-            <td>€378.957</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="panel-charts anim d4">
-    <div class="panel-integral-card">
-      <h3 style="font-family:'Lora',serif;font-size:20px;margin-bottom:18px">
-        Ingresos vs Costes - 2026
-      </h3>
-      <div class="panel-chart-box">
-        <canvas id="panelMainChart"></canvas>
-      </div>
-    </div>
-
-    <div class="panel-integral-card">
-      <h3 style="font-family:'Lora',serif;font-size:20px;margin-bottom:18px">
-        Utilidad mensual - 2026
-      </h3>
-      <div class="panel-chart-box">
-        <canvas id="panelProfitChart"></canvas>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script>
-    setTimeout(function(){
-      const monthsPanel = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
-
-      new Chart(document.getElementById('panelMainChart'), {
-        type: 'line',
-        data: {
-          labels: monthsPanel,
-          datasets: [
-            {
-              label: 'Ingresos',
-              data: [0,860,3623,6303,8033,54496,48038,43532,69239,72649,120257,100000],
-              borderColor: '#5cb89b',
-              backgroundColor: 'rgba(92,184,155,.14)',
-              fill: true,
-              tension: .4,
-              borderWidth: 3
-            },
-            {
-              label: 'Costes',
-              data: [6800,3060,9621,19043,4438,22757,20154,7889,8435,8612,13910,16412],
-              borderColor: '#f43f5e',
-              borderDash: [5,5],
-              tension: .4,
-              borderWidth: 2
-            }
-          ]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: { legend: { position: 'bottom' } }
-        }
+      children.forEach(function (child) {
+        child.classList.toggle("is-visible");
       });
 
-      const profitDataPanel = [-6800,-2200,-5998,-12740,3595,31739,27884,35643,60804,64037,106347,83588];
+      button.textContent = button.textContent === "+" ? "−" : "+";
+    });
+  });
+</script>
 
-      new Chart(document.getElementById('panelProfitChart'), {
-        type: 'bar',
-        data: {
-          labels: monthsPanel,
-          datasets: [{
-            label: 'Utilidad',
-            data: profitDataPanel,
-            backgroundColor: profitDataPanel.map(v => v < 0 ? '#fb7185' : '#34d399'),
-            borderRadius: 4
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: { legend: { display: false } }
-        }
-      });
-    }, 300);
-  </script>
-</section>
+<!-- SEZIONE COSTI VARIABILI NEGOCIO -->
+<tr class="section-row business-variable" data-toggle="business-variable">
+  <td><button class="toggle">+</button> TOTAL COSTES VARIABLES NEGOCIO</td>
+  <td>-</td><td>€6.180,00</td><td>-</td><td>€9.270,00</td>
+  <td>€18.551,00</td><td>-</td><td>€18.628,00</td><td>€15.516,00</td>
+  <td>€18.584,00</td><td>€30.988,00</td><td>€30.999,00</td><td>€6.334,00</td>
+  <td>€155.050</td><td>€387.625</td><td>€658.963</td>
+</tr>
+
+<tr class="child business-variable-child">
+  <td>PIEZAS PRODUCIDAS</td>
+  <td>-</td><td>100</td><td>-</td><td>150</td><td>300</td><td>-</td>
+  <td>300</td><td>250</td><td>300</td><td>500</td><td>500</td><td>100</td>
+  <td>2500</td><td>6250</td><td>10625</td>
+</tr>
+
+<tr class="child business-variable-child">
+  <td>Metales y materias primas</td>
+  <td>-</td><td>€3.400,00</td><td>-</td><td>€5.100,00</td><td>€10.200,00</td><td>-</td>
+  <td>€10.200,00</td><td>€8.500,00</td><td>€10.200,00</td><td>€17.000,00</td><td>€17.000,00</td><td>€3.400,00</td>
+  <td>€85.000</td><td>€212.500</td><td>€361.250</td>
+</tr>
+
+<tr class="child business-variable-child">
+  <td>Mano de obra</td>
+  <td>-</td><td>€1.100,00</td><td>-</td><td>€1.650,00</td><td>€3.300,00</td><td>-</td>
+  <td>€3.300,00</td><td>€2.750,00</td><td>€3.300,00</td><td>€5.500,00</td><td>€5.500,00</td><td>€1.100,00</td>
+  <td>€27.500</td><td>€68.750</td><td>€116.875</td>
+</tr>
+
+<tr class="child business-variable-child">
+  <td>Packaging</td>
+  <td>-</td><td>€800,00</td><td>-</td><td>€1.200,00</td><td>€2.400,00</td><td>-</td>
+  <td>€2.400,00</td><td>€2.000,00</td><td>€2.400,00</td><td>€4.000,00</td><td>€4.000,00</td><td>€800,00</td>
+  <td>€20.000</td><td>€50.000</td><td>€85.000</td>
+</tr>
+
+<tr class="child business-variable-child">
+  <td>COSTES LOGÍSTICOS</td>
+  <td>-</td><td>€880,00</td><td>-</td><td>€1.320,00</td><td>€2.640,00</td><td>-</td>
+  <td>€2.640,00</td><td>€2.200,00</td><td>€2.640,00</td><td>€4.400,00</td><td>€4.400,00</td><td>€880,00</td>
+  <td>€22.000</td><td>€55.000</td><td>€93.500</td>
+</tr>
+
+<tr class="child business-variable-child">
+  <td>SERVICIO DE REPARACIÓN</td>
+  <td>-</td><td>-</td><td>-</td><td>-</td><td>€11,00</td><td>-</td>
+  <td>€88,00</td><td>€66,00</td><td>€44,00</td><td>€88,00</td><td>€99,00</td><td>€154,00</td>
+  <td>€550</td><td>€1.375</td><td>€2.338</td>
+</tr>
+
+<!-- SEZIONE COSTI FISSI NEGOCIO -->
+<tr class="section-row business-fixed" data-toggle="business-fixed">
+  <td><button class="toggle">+</button> TOTAL COSTES FIJOS NEGOCIO</td>
+  <td>€8.030,00</td><td>€7.940,00</td><td>€8.440,00</td><td>€8.440,00</td>
+  <td>€8.440,00</td><td>€8.440,00</td><td>€8.440,00</td><td>€8.440,00</td>
+  <td>€8.440,00</td><td>€8.440,00</td><td>€8.440,00</td><td>€8.440,00</td>
+  <td>€100.370</td><td>€108.980</td><td>€118.729</td>
+</tr>
+
+<tr class="child business-fixed-child">
+  <td>SALARIOS</td>
+  <td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td>
+  <td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td>
+  <td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td>
+  <td>€76.800</td><td>€76.800</td><td>€76.800</td>
+</tr>
+
+<tr class="child business-fixed-child">
+  <td>ALQUILER</td>
+  <td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td>
+  <td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td>
+  <td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td>
+  <td>€12.000</td><td>€12.000</td><td>€12.000</td>
+</tr>
+
+<tr class="child business-fixed-child">
+  <td>SEGURO DE JOYA</td>
+  <td>-</td><td>-</td><td>€500,00</td><td>€500,00</td><td>€500,00</td><td>€500,00</td>
+  <td>€500,00</td><td>€500,00</td><td>€500,00</td><td>€500,00</td><td>€500,00</td><td>€500,00</td>
+  <td>€5.000</td><td>€12.500</td><td>€21.250</td>
+</tr>
+
+<tr class="child business-fixed-child">
+  <td>ASESORÍA LEGAL Y FISCAL</td>
+  <td>€280,00</td><td>€280,00</td><td>€280,00</td><td>€280,00</td>
+  <td>€280,00</td><td>€280,00</td><td>€280,00</td><td>€280,00</td>
+  <td>€280,00</td><td>€280,00</td><td>€280,00</td><td>€280,00</td>
+  <td>€3.360</td><td>€3.360</td><td>€3.360</td>
+</tr>
+
+<tr class="child business-fixed-child">
+  <td>GASTOS DE SUMINISTROS</td>
+  <td>€185,00</td><td>€185,00</td><td>€185,00</td><td>€185,00</td>
+  <td>€185,00</td><td>€185,00</td><td>€185,00</td><td>€185,00</td>
+  <td>€185,00</td><td>€185,00</td><td>€185,00</td><td>€185,00</td>
+  <td>€2.220</td><td>€3.330</td><td>€4.329</td>
+</tr>
+
+<tr class="child business-fixed-child">
+  <td>SHOPIFY</td>
+  <td>€75,00</td><td>€75,00</td><td>€75,00</td><td>€75,00</td>
+  <td>€75,00</td><td>€75,00</td><td>€75,00</td><td>€75,00</td>
+  <td>€75,00</td><td>€75,00</td><td>€75,00</td><td>€75,00</td>
+  <td>€900</td><td>€900</td><td>€900</td>
+</tr>
+
+<tr class="child business-fixed-child">
+  <td>DOMINIO Y CORREO CORPORATIVO</td>
+  <td>€90,00</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+  <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+  <td>€90</td><td>€90</td><td>€90</td>
+</tr>
 
 
 <!-- FINANZAS -->
