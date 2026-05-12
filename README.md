@@ -404,6 +404,9 @@ value-chain-container{margin-bottom:50px}
 .sim-row .real{font-size:11px;color:var(--text3)}
 .sim-slider{width:100%;height:6px;-webkit-appearance:none;appearance:none;background:linear-gradient(90deg,var(--primary) 0%,var(--primary) var(--progress,50%),rgba(92,184,155,.15) var(--progress,50%),rgba(92,184,155,.15) 100%);border-radius:3px;outline:none;cursor:pointer}
 .sim-slider::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:var(--primary);cursor:pointer;box-shadow:0 2px 8px rgba(92,184,155,.3)}
+.sim-slider-wrap{position:relative;padding-top:8px}
+.sim-real-marker{position:absolute;left:var(--real);top:11px;width:12px;height:12px;border-radius:50%;background:#ec4899;border:2px solid #fff;box-shadow:0 2px 10px rgba(236,72,153,.35);transform:translateX(-50%);z-index:3;pointer-events:none}
+.sim-real-marker::after{content:'Allora real';position:absolute;left:50%;top:15px;transform:translateX(-50%);font-size:9px;font-weight:600;white-space:nowrap;color:#ec4899}
 .sim-results{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .sim-result{background:var(--card);backdrop-filter:blur(14px);border-radius:var(--radius);padding:22px;border:1px solid rgba(255,255,255,.7);box-shadow:var(--shadow)}
 .sim-result .lb{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--primary);margin-bottom:6px}
@@ -1070,6 +1073,181 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
   </div>
 </section>
 
+<!-- Panel de presupuesto de dmkt -->
+<section class="section" id="panel-integral" style="padding-top:0">
+  <style>
+    .panel-integral-card{background:rgba(255,255,255,.75);backdrop-filter:blur(14px);border-radius:20px;padding:24px;border:1px solid rgba(255,255,255,.7);box-shadow:0 4px 30px rgba(0,0,0,.06)}
+    .panel-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:28px 0}
+    .panel-kpi{border-top:4px solid #5cb89b}
+    .panel-kpi.red{border-top-color:#f43f5e}
+    .panel-kpi .label{font-size:11px;font-weight:700;color:#7a9a8e;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px}
+    .panel-kpi .value{font-size:30px;font-weight:700;color:#1a3328}
+    .panel-kpi.red .value{color:#f43f5e}
+    .panel-table-wrap{overflow-x:auto}
+    .panel-table{width:100%;border-collapse:collapse;min-width:980px}
+    .panel-table th{padding:12px 14px;text-align:left;font-size:10px;font-weight:700;text-transform:uppercase;color:#5cb89b;background:rgba(92,184,155,.06);border-bottom:1px solid rgba(92,184,155,.12)}
+    .panel-table td{padding:14px;font-size:13px;color:#1a3328;border-bottom:1px solid rgba(92,184,155,.08)}
+    .panel-total{background:rgba(92,184,155,.08);font-weight:700;color:#3a7a6a}
+    .panel-charts{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:28px}
+    .panel-chart-box{height:300px}
+    @media(max-width:900px){
+      .panel-kpis,.panel-charts{grid-template-columns:1fr}
+    }
+  </style>
+
+  <span class="chapter-label anim">Finanzas</span>
+  <h2 class="section-title anim">Panel Integral de Presupuesto y Rendimiento de Marketing</h2>
+  <p class="section-sub anim">
+    Dashboard interactivo del presupuesto anual con desglose mensual, KPIs en tiempo real.
+  </p>
+
+  <div class="panel-kpis anim d2">
+    <div class="panel-integral-card panel-kpi">
+      <div class="label">Total Ingresos</div>
+      <div class="value">€378.957</div>
+    </div>
+
+    <div class="panel-integral-card panel-kpi red">
+      <div class="label">Total Costes</div>
+      <div class="value">€100.000</div>
+    </div>
+
+    <div class="panel-integral-card panel-kpi">
+      <div class="label">ROI</div>
+      <div class="value" style="color:#5cb89b">278.96%</div>
+    </div>
+
+    <div class="panel-integral-card panel-kpi">
+      <div class="label">ROAS</div>
+      <div class="value">5.53x</div>
+    </div>
+  </div>
+
+  <div class="panel-integral-card anim d3">
+    <h3 style="font-family:'Lora',serif;font-size:22px;margin-bottom:18px;color:#3a7a6a">
+      A · Ingresos
+    </h3>
+
+    <div class="panel-table-wrap">
+      <table class="panel-table">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Ene</th><th>Feb</th><th>Mar</th><th>Abr</th>
+            <th>May</th><th>Jun</th><th>Jul</th><th>Ago</th>
+            <th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Ingresos e-commerce</td>
+            <td>-</td><td>€702</td><td>€3.308</td><td>€5.985</td>
+            <td>€7.875</td><td>€45.833</td><td>€33.863</td><td>€20.475</td>
+            <td>€36.426</td><td>€52.419</td><td>€72.508</td><td>-</td>
+            <td><strong>€279.391</strong></td>
+          </tr>
+
+          <tr>
+            <td>Ingresos afiliación</td>
+            <td>-</td><td>€158</td><td>€315</td><td>€318</td>
+            <td>€158</td><td>€8.663</td><td>€14.175</td><td>€13.388</td>
+            <td>€14.963</td><td>-</td><td>-</td><td>-</td>
+            <td><strong>€51.818</strong></td>
+          </tr>
+
+          <tr class="panel-total">
+            <td>TOTAL INGRESOS</td>
+            <td>-</td><td>€860</td><td>€3.623</td><td>€6.303</td>
+            <td>€8.033</td><td>€54.496</td><td>€48.038</td><td>€43.532</td>
+            <td>€69.239</td><td>€72.649</td><td>€120.257</td><td>-</td>
+            <td>€378.957</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="panel-charts anim d4">
+    <div class="panel-integral-card">
+      <h3 style="font-family:'Lora',serif;font-size:20px;margin-bottom:18px">
+        Ingresos vs Costes - 2026
+      </h3>
+      <div class="panel-chart-box">
+        <canvas id="panelMainChart"></canvas>
+      </div>
+    </div>
+
+    <div class="panel-integral-card">
+      <h3 style="font-family:'Lora',serif;font-size:20px;margin-bottom:18px">
+        Utilidad mensual - 2026
+      </h3>
+      <div class="panel-chart-box">
+        <canvas id="panelProfitChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    setTimeout(function(){
+      const monthsPanel = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+
+      new Chart(document.getElementById('panelMainChart'), {
+        type: 'line',
+        data: {
+          labels: monthsPanel,
+          datasets: [
+            {
+              label: 'Ingresos',
+              data: [0,860,3623,6303,8033,54496,48038,43532,69239,72649,120257,100000],
+              borderColor: '#5cb89b',
+              backgroundColor: 'rgba(92,184,155,.14)',
+              fill: true,
+              tension: .4,
+              borderWidth: 3
+            },
+            {
+              label: 'Costes',
+              data: [6800,3060,9621,19043,4438,22757,20154,7889,8435,8612,13910,16412],
+              borderColor: '#f43f5e',
+              borderDash: [5,5],
+              tension: .4,
+              borderWidth: 2
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom' } }
+        }
+      });
+
+      const profitDataPanel = [-6800,-2200,-5998,-12740,3595,31739,27884,35643,60804,64037,106347,83588];
+
+      new Chart(document.getElementById('panelProfitChart'), {
+        type: 'bar',
+        data: {
+          labels: monthsPanel,
+          datasets: [{
+            label: 'Utilidad',
+            data: profitDataPanel,
+            backgroundColor: profitDataPanel.map(v => v < 0 ? '#fb7185' : '#34d399'),
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } }
+        }
+      });
+    }, 300);
+  </script>
+</section>
+
 
 <!-- FINANZAS -->
 <section class="section" id="simulador">
@@ -1610,8 +1788,146 @@ function hideBarTooltip(){
 }
 
 // Simulator
+      </div>`,
+    conversion:`<h2>Conversión</h2>
+      <p class="sub"><b>Objetivo:</b> Cerrar ventas con flujos automatizados, recuperación de carrito y campañas con incentivos puntuales que mantengan la coherencia de marca.</p>
+      <div class="modal-section"><h3>Distribución de inversión · €40.000</h3>
+        <div class="modal-bar"><div class="top"><span class="name">Paid Media</span><span class="amount">€9.350</span></div><div class="sub">Lookalike + DPA</div><div class="track"><div class="fill" style="width:23%"></div></div></div>
+        <div class="modal-bar"><div class="top"><span class="name">Email Marketing</span><span class="amount">€8.600</span></div><div class="sub">Flujo carrito + post-quiz</div><div class="track"><div class="fill" style="width:22%"></div></div></div>
+        <div class="modal-bar"><div class="top"><span class="name">SEM</span><span class="amount">€6.050</span></div><div class="sub">Long-tail keywords</div><div class="track"><div class="fill" style="width:15%"></div></div></div>
+        <div class="modal-bar"><div class="top"><span class="name">Marketing afiliación</span><span class="amount">€16.000</span></div><div class="sub">Comisión CPA</div><div class="track"><div class="fill" style="width:40%"></div></div></div>
+      </div>
+      <div class="modal-section"><h3>Tácticas clave</h3>
+        <div class="modal-tactics">
+          <div class="modal-tactic"><div class="num">01</div><p>Trabajaremos con micro-influencers bajo un modelo CPA. Pagaremos una comisión del 20% por las primeras 10 ventas y del 30% si superan esa cifra, además de entregarles producto físico.</p></div>
+          <div class="modal-tactic"><div class="num">02</div><p>Ejecutaremos campañas de conversión en TikTok e Instagram Ads dirigidas a audiencias con alta intención de compra.</p></div>
+          <div class="modal-tactic"><div class="num">03</div><p>Enviaremos recordatorios de incentivos, beneficios exclusivos y ofertas de última oportunidad para empujar la decisión de compra.</p></div>
+          <div class="modal-tactic"><div class="num">04</div><p>Pujaremos por long-tail keywords en lugar de términos genéricos para maximizar el presupuesto.</p></div>
+        </div>
+      </div>
+      <div class="modal-section"><h3>KPIs proyectados</h3>
+        <div class="modal-kpis">
+          <div class="modal-kpi"><div class="lb">CPA promedio</div><div class="val">€24.14</div></div>
+          <div class="modal-kpi"><div class="lb">Ventas totales</div><div class="val">1.657</div></div>
+          <div class="modal-kpi"><div class="lb">Ventas email</div><div class="val">864</div></div>
+          <div class="modal-kpi"><div class="lb">Ingresos fase</div><div class="val">€260.977</div></div>
+          <div class="modal-kpi"><div class="lb">ROI</div><div class="val">552%</div></div>
+        </div>
+      </div>`,
+    fidelizacion:`<h2>Fidelización</h2>
+      <p class="sub"><b>Objetivo:</b> Transformar a nuestros clientes iniciales en una comunidad activa que genere recompras y contenido para la marca.</p>
+      <div class="modal-section"><h3>Distribución de inversión · €10.000</h3>
+        <div class="modal-bar"><div class="top"><span class="name">Gestión Redes Sociales</span><span class="amount">€6.250</span></div><div class="sub">Comunidad y UGC</div><div class="track"><div class="fill" style="width:63%"></div></div></div>
+        <div class="modal-bar"><div class="top"><span class="name">Email de Fidelización</span><span class="amount">€3.750</span></div><div class="sub">Recompras y preventas</div><div class="track"><div class="fill" style="width:37%"></div></div></div>
+      </div>
+      <div class="modal-section"><h3>Tácticas clave</h3>
+        <div class="modal-tactics">
+          <div class="modal-tactic"><div class="num">01</div><p>Invertiremos 2.000€ en colaboraciones con videntes y creadoras de contenido espiritual para reforzar el significado de las joyas como amuletos.</p></div>
+          <div class="modal-tactic"><div class="num">02</div><p>Mantendremos el contacto mensual mediante newsletters, contenido sobre bienestar, simbología, preventas exclusivas y estrategias de viralidad y aumento del ticket medio.</p></div>
+        </div>
+      </div>
+      <div class="modal-section"><h3>KPIs proyectados</h3>
+        <div class="modal-kpis">
+          <div class="modal-kpi"><div class="lb">Recompra</div><div class="val">25%</div></div>
+          <div class="modal-kpi"><div class="lb">Conversiones</div><div class="val">501</div></div>
+          <div class="modal-kpi"><div class="lb">Conversión email</div><div class="val">15%</div></div>
+          <div class="modal-kpi"><div class="lb">Ingresos fase</div><div class="val">€79.320</div></div>
+          <div class="modal-kpi"><div class="lb">ROI</div><div class="val">693%</div></div>
+        </div>
+      </div>`,
+    detalle2026:`<h2>Detalle mensual 2026</h2>
+      <table class="monthly-table">
+        <thead><tr><th>Mes</th><th>Ingresos</th><th>Egresos</th><th>Utilidad</th><th>ROI</th></tr></thead>
+        <tbody>
+        <tr><td>Ene</td><td>€0</td><td>€14.430</td><td class="neg">€-14.430</td><td class="neg">-100.0%</td></tr>
+        <tr><td>Feb</td><td>€0</td><td>€15.920</td><td class="neg">€-15.920</td><td class="neg">-100.0%</td></tr>
+        <tr><td>Mar</td><td>€702</td><td>€14.740</td><td class="neg">€-14.038</td><td class="neg">-95.2%</td></tr>
+        <tr><td>Abr</td><td>€3.465</td><td>€35.264</td><td class="neg">€-31.799</td><td class="neg">-90.2%</td></tr>
+        <tr><td>May</td><td>€6.300</td><td>€18.736</td><td class="neg">€-12.436</td><td class="neg">-66.4%</td></tr>
+        <tr><td>Jun</td><td>€8.033</td><td>€11.994</td><td class="neg">€-3.961</td><td class="neg">-33.0%</td></tr>
+        <tr><td>Jul</td><td>€54.495</td><td>€49.494</td><td class="pos">€5.001</td><td class="pos">10.1%</td></tr>
+        <tr><td>Ago</td><td>€48.038</td><td>€30.083</td><td class="pos">€17.955</td><td class="pos">59.7%</td></tr>
+        <tr><td>Sep</td><td>€33.863</td><td>€32.124</td><td class="pos">€1.738</td><td class="pos">5.4%</td></tr>
+        <tr><td>Oct</td><td>€61.057</td><td>€52.281</td><td class="pos">€8.776</td><td class="pos">16.8%</td></tr>
+        <tr><td>Nov</td><td>€70.269</td><td>€47.249</td><td class="pos">€23.020</td><td class="pos">48.7%</td></tr>
+        <tr><td>Dic</td><td>€92.738</td><td>€32.624</td><td class="pos">€60.114</td><td class="pos">184.3%</td></tr>
+        <tr><td><b>Total</b></td><td><b>€378.957</b></td><td><b>€355.420</b></td><td><b class="pos">€23.537</b></td><td><b class="pos">6.62%</b></td></tr>
+        </tbody>
+      </table>`,
+    tam2026:`<h2>Año 2026 · Desglose de mercado</h2>
+      <div class="modal-section">
+        <div class="modal-bar"><div class="top"><span class="name">TAM · Mercado total</span></div><div class="amount">€247.000.000</div><div class="sub">Consumo anual de joyería en Bogotá estimado en torno a 247 millones de euros.</div></div>
+        <div class="modal-bar"><div class="top"><span class="name">SAM · Mercado objetivo</span></div><div class="amount">€209.000.000</div><div class="sub">1.159.200 piezas anuales: 579.600 mujeres que compran 2 veces al año. ~13% del TAM.</div></div>
+        <div class="modal-bar"><div class="top"><span class="name">SOM · Mercado alcanzable</span></div><div class="amount">€378.957</div><div class="sub">2.500 piezas anuales, objetivo realista para los primeros 12 meses; proyección a 6.250 piezas (€947.393) en 24 meses.</div></div>
+      </div>`
+  };
+  const copyModals={
+    tam2027:modals.tam2026,tam2028:modals.tam2026
+  };
+  content.innerHTML=modals[type]||copyModals[type]||'<p>Contenido próximamente</p>';
+  overlay.classList.add('show');
+}
+
+function closeModal(){
+  document.getElementById('modalOverlay').classList.remove('show');
+}
+
+document.getElementById('modalOverlay').addEventListener('click',e=>{
+  if(e.target===e.currentTarget) closeModal();
+});
+
+// Map
+document.getElementById('mapBtn').addEventListener('click',()=>{
+  document.getElementById('mapOverlay').classList.add('show');
+});
+function closeMap(){
+  document.getElementById('mapOverlay').classList.remove('show');
+}
+document.getElementById('mapOverlay').addEventListener('click',e=>{
+  if(e.target===e.currentTarget) closeMap();
+});
+
+// Bar tooltip
+function showBarTooltip(el,year,units){
+  const tt=document.getElementById('barTooltip');
+  const rect=el.getBoundingClientRect();
+  const container=el.closest('.bar-chart').getBoundingClientRect();
+  tt.style.display='block';
+  tt.style.left=(rect.left-container.left+rect.width/2-40)+'px';
+  tt.style.top=(rect.top-container.top-50)+'px';
+  document.getElementById('barTooltipYear').textContent=year;
+  document.getElementById('barTooltipVal').textContent='Unidades: '+units;
+}
+function hideBarTooltip(){
+  document.getElementById('barTooltip').style.display='none';
+}
+
+// Simulator
+function setupRealSliderMarkers(){
+  const sliders=[
+    {id:'simUnits',real:2500,min:500,max:10000},
+    {id:'simPrice',real:152,min:50,max:400},
+    {id:'simCost',real:62,min:10,max:200}
+  ];
+  
+  sliders.forEach(({id,real,min,max})=>{
+    const input=document.getElementById(id);
+    if(!input || input.closest('.sim-slider-wrap')) return;
+    
+    const wrap=document.createElement('div');
+    wrap.className='sim-slider-wrap';
+    wrap.style.setProperty('--real',((real-min)/(max-min)*100)+'%');
+    input.parentNode.insertBefore(wrap,input);
+    wrap.appendChild(input);
+    
+    const marker=document.createElement('span');
+    marker.className='sim-real-marker';
+    wrap.appendChild(marker);
+  });
+}
+
 function updateSim(){
-  const u=parseInt(document.getElementById('simUnits').value);
+   const u=parseInt(document.getElementById('simUnits').value);
   const p=parseInt(document.getElementById('simPrice').value);
   const c=parseInt(document.getElementById('simCost').value);
   
@@ -1638,6 +1954,7 @@ function updateSim(){
   document.getElementById('simBE').textContent=(be>0?be.toLocaleString('es-ES'):'∞')+' u.';
 }
 
+
 function resetSim(){
   document.getElementById('simUnits').value=2500;
   document.getElementById('simPrice').value=152;
@@ -1650,13 +1967,17 @@ updateSim();
 // Break Even Chart
 function drawBreakEvenChart(){
   const container=document.getElementById('breakEvenChart');
-  const w=container.clientWidth;
+  const w=900;
   const h=380;
-  const pad={t:40,r:30,b:50,l:60};
+  const pad={t:46,r:36,b:58,l:68};
   const cw=w-pad.l-pad.r;
   const ch=h-pad.t-pad.b;
   
+  const fixedCosts=200370;
+  const price=151.58;
+  const variableCost=62.02;
   const beUnits=2237;
+  const alloraUnits=2500;
   const maxUnits=5000;
   const maxVal=800000;
   
