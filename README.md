@@ -1038,289 +1038,92 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
 </section>
 
 <!-- Connected Chapters -->
-<div class="section" style="padding-top:20px;padding-bottom:60px">
-<span class="chapter-label anim" style="display:block;text-align:center;margin-bottom:16px">Sigue tu viaje</span>
-<h3 class="anim" style="font-family:'Lora',serif;font-size:24px;text-align:center;margin-bottom:24px;color:var(--text)">Capítulos conectados</h3>
-<div class="connected anim d2">
-<a href="#producto" class="connected-link"><div><div class="lb">Explora</div><div class="title">Marketing Mix</div></div><span class="arr">→</span></a>
-<a href="#simulador" class="connected-link"><div><div class="lb">Explora</div><div class="title">Finanzas</div></div><span class="arr">→</span></a>
-</div>
-</div>
-<section class="section" id="panel" style="padding-top:0">
-  <h3 style="font-family:'Lora',serif;font-size:24px;margin-bottom:8px" class="anim">Panel de Presupuesto MKT Digital</h3>
-  <p class="section-sub anim" style="margin-bottom:24px">Dashboard del presupuesto anual de marketing digital · Año 2026</p>
-  <div class="fin-stats anim d2" style="grid-template-columns:repeat(4,1fr)">
-    <div class="fin-stat"><div class="lb">Total Ingresos</div><div class="val" style="color:var(--primary)">€378.957</div></div>
-    <div class="fin-stat"><div class="lb">Total Costes MKT</div><div class="val" style="color:#dc2626">€100.000</div></div>
-    <div class="fin-stat"><div class="lb">ROI MKT</div><div class="val" style="color:var(--primary)">278.96%</div></div>
-    <div class="fin-stat"><div class="lb">ROAS</div><div class="val" style="color:var(--primary)">5.53×</div></div>
+<div class="section" style="padding: 20px 0 60px; text-align: center;">
+  <span class="chapter-label" style="display:block; margin-bottom:16px; font-weight:600; color:#555">Sigue tu viaje</span>
+  <h3 style="font-family:'Lora',serif; font-size:24px; margin-bottom:24px; color:#111">Capítulos conectados</h3>
+  <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap;">
+    <a href="#producto" style="display:inline-flex; align-items:center; gap:8px; padding:12px 20px; background:#f8f9fa; border:1px solid #e0e0e0; border-radius:6px; text-decoration:none; color:#111; font-weight:500;">
+      <span>Explora</span> <span>Marketing Mix</span> <span>→</span>
+    </a>
+    <a href="#simulador" style="display:inline-flex; align-items:center; gap:8px; padding:12px 20px; background:#f8f9fa; border:1px solid #e0e0e0; border-radius:6px; text-decoration:none; color:#111; font-weight:500;">
+      <span>Explora</span> <span>Finanzas</span> <span>→</span>
+    </a>
   </div>
-  <div class="data-table anim d3" style="margin-top:24px">
-    <div style="padding:16px 20px;font-family:'Lora',serif;font-size:16px;color:var(--text);border-bottom:1px solid rgba(92,184,155,.1);display:flex;justify-content:space-between;align-items:center">
-      <span>Presupuesto MKT Digital 2026 · Desglose por fase</span>
-      <span style="font-size:12px;color:var(--text3)">€100.000 total</span>
+</div>
+
+<!-- Panel de Presupuesto -->
+<section id="panel" style="padding: 0 0 60px;">
+  <h3 style="font-family:'Lora',serif; font-size:24px; margin-bottom:8px; color:#111">Panel de Presupuesto MKT Digital</h3>
+  <p style="margin-bottom:24px; color:#555">Dashboard del presupuesto anual de marketing digital · Año 2026</p>
+  
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px,1fr)); gap:16px; margin-bottom:24px;">
+    <div style="padding:16px; background:#f8f9fa; border-radius:8px; text-align:center;">
+      <div style="font-size:13px; color:#555">Total Ingresos</div>
+      <div style="font-size:18px; font-weight:700; color:#10b981">€378.957</div>
     </div>
-    <table>
-      <thead><tr><th>Fase</th><th>Presupuesto</th><th>% del Total</th><th>Objetivo</th><th>KPI Principal</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Awareness</strong></td><td class="num">€15.000</td><td class="num">15%</td><td>Tráfico web, impresiones</td><td class="num">7.2M imp.</td></tr>
-        <tr><td><strong>Captación</strong></td><td class="num">€35.000</td><td class="num">35%</td><td>Leads cualificados</td><td class="num">10.000 leads</td></tr>
-        <tr><td><strong>Conversión</strong></td><td class="num">€40.000</td><td class="num">40%</td><td>Ventas, ingresos</td><td class="num">1.657 ventas</td></tr>
-        <tr><td><strong>Fidelización</strong></td><td class="num">€10.000</td><td class="num">10%</td><td>Recompra, engagement</td><td class="num">25% recompra</td></tr>
-        <tr style="background:rgba(92,184,155,.08)"><td><strong>TOTAL</strong></td><td class="num"><strong>€100.000</strong></td><td class="num"><strong>100%</strong></td><td></td><td class="num"><strong>ROI 278.96%</strong></td></tr>
-      </tbody>
-    </table>
+    <div style="padding:16px; background:#f8f9fa; border-radius:8px; text-align:center;">
+      <div style="font-size:13px; color:#555">Total Costes MKT</div>
+      <div style="font-size:18px; font-weight:700; color:#dc2626">€100.000</div>
+    </div>
+    <div style="padding:16px; background:#f8f9fa; border-radius:8px; text-align:center;">
+      <div style="font-size:13px; color:#555">ROI MKT</div>
+      <div style="font-size:18px; font-weight:700; color:#10b981">278.96%</div>
+    </div>
+    <div style="padding:16px; background:#f8f9fa; border-radius:8px; text-align:center;">
+      <div style="font-size:13px; color:#555">ROAS</div>
+      <div style="font-size:18px; font-weight:700; color:#10b981">5.53×</div>
+    </div>
+  </div>
+
+  <div style="border:1px solid #e5e7eb; border-radius:8px; overflow:hidden;">
+    <div style="padding:16px 20px; font-family:'Lora',serif; font-size:16px; color:#111; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px">
+      <span>Presupuesto MKT Digital 2026 · Desglose por fase</span>
+      <span style="font-size:12px; color:#666">€100.000 total</span>
+    </div>
+    <div style="overflow-x:auto">
+      <table style="width:100%; border-collapse:collapse; font-size:14px; min-width:600px;">
+        <thead>
+          <tr style="background:#f9fafb">
+            <th style="padding:12px 16px; text-align:left; border-bottom:1px solid #eee">Fase</th>
+            <th style="padding:12px 16px; text-align:right; border-bottom:1px solid #eee">Presupuesto</th>
+            <th style="padding:12px 16px; text-align:right; border-bottom:1px solid #eee">% del Total</th>
+            <th style="padding:12px 16px; text-align:left; border-bottom:1px solid #eee">Objetivo</th>
+            <th style="padding:12px 16px; text-align:right; border-bottom:1px solid #eee">KPI Principal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:12px 16px; border-bottom:1px solid #f0f0f0"><strong>Awareness</strong></td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">€15.000</td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">15%</td><td style="padding:12px 16px; border-bottom:1px solid #f0f0f0">Tráfico web, impresiones</td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">7.2M imp.</td></tr>
+          <tr><td style="padding:12px 16px; border-bottom:1px solid #f0f0f0"><strong>Captación</strong></td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">€35.000</td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">35%</td><td style="padding:12px 16px; border-bottom:1px solid #f0f0f0">Leads cualificados</td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">10.000 leads</td></tr>
+          <tr><td style="padding:12px 16px; border-bottom:1px solid #f0f0f0"><strong>Conversión</strong></td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">€40.000</td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">40%</td><td style="padding:12px 16px; border-bottom:1px solid #f0f0f0">Ventas, ingresos</td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">1.657 ventas</td></tr>
+          <tr><td style="padding:12px 16px; border-bottom:1px solid #f0f0f0"><strong>Fidelización</strong></td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">€10.000</td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">10%</td><td style="padding:12px 16px; border-bottom:1px solid #f0f0f0">Recompra, engagement</td><td style="padding:12px 16px; text-align:right; border-bottom:1px solid #f0f0f0">25% recompra</td></tr>
+          <tr style="background:rgba(16,185,129,0.08)"><td style="padding:12px 16px"><strong>TOTAL</strong></td><td style="padding:12px 16px; text-align:right"><strong>€100.000</strong></td><td style="padding:12px 16px; text-align:right"><strong>100%</strong></td><td style="padding:12px 16px"></td><td style="padding:12px 16px; text-align:right"><strong>ROI 278.96%</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </section>
 
-      }
-    ]
-  },
-  {
-    "title": "Resultado global",
-    "eyebrow": "Ingresos, costes, utilidad y ROI",
-    "tone": "slate",
-    "rows": [
-      {
-        "concepto": "Total ingresos",
-        "valores": [
-          "",
-          "",
-          "€701,60",
-          "€3.465,00",
-          "€6.300,00",
-          "€ 8.032,50",
-          "€54.495,00",
-          "€48.037,50",
-          "€33.862,50",
-          "€61.056,75",
-          "€70.269,00",
-          "€92.737,50",
-          "€378.957,35",
-          "€947.393,38",
-          "€1.610.568,74"
-        ]
-      },
-      {
-        "concepto": "Total costes V + F",
-        "valores": [
-          "€14.430,00",
-          "€15.920,00",
-          "€14.740,00",
-          "€32.763,77",
-          "€29.596,00",
-          "€11.993,77",
-          "€50.494,05",
-          "€30.083,00",
-          "€32.245,31",
-          "€52.281,10",
-          "€47.249,00",
-          "€23.624,00",
-          "€355.420",
-          "€656.820",
-          "€ 1.030.584,00"
-        ]
-      },
-      {
-        "concepto": "Utilidad",
-        "valores": [
-          "-€14.430,00",
-          "-€15.920,00",
-          "-€14.038,40",
-          "-€29.298,77",
-          "-€23.296,00",
-          "-€ 3.961,27",
-          "€4.000,95",
-          "€17.954,50",
-          "€1.617,19",
-          "€8.775,65",
-          "€23.020,00",
-          "€69.113,50",
-          "€23.537,35",
-          "€290.573,38",
-          "€579.984,74"
-        ]
-      },
-      {
-        "concepto": "ROI",
-        "valores": [
-          "-100,00%",
-          "-100,00%",
-          "-95,24%",
-          "-89,42%",
-          "-78,71%",
-          "-33,03%",
-          "7,92%",
-          "59,68%",
-          "5,02%",
-          "16,79%",
-          "48,72%",
-          "292,56%",
-          "6,62%",
-          "44,24%",
-          "56,28%"
-        ]
-      }
-    ]
-  }
-];
-
-      const iconSvg = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 19h16v2H4v-2Zm1-4h3V7H5v8Zm5 0h3V3h-3v12Zm5 0h3v-5h-3v5Z"/></svg>';
-      const chevronSvg = '<svg class="dmkt-block__chevron" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41Z"/></svg>';
-      const accordion = root.querySelector('[data-dmkt-accordion]');
-
-      const clean = (value) => value && value.trim() ? value : '—';
-      const isTotalRow = (label) => /^(TOTAL|Total ingresos|Total costes|Utilidad|ROI)/.test(label);
-      const tdClass = (value, index) => [!value ? 'dmkt-table__empty' : '', index >= 12 ? 'dmkt-table__year' : ''].filter(Boolean).join(' ');
-
-      function tableFor(group) {
-        const head = columns.map((column) => `<th scope="col">${column}</th>`).join('');
-        const body = group.rows.map((row) => `
-          <tr class="${isTotalRow(row.concepto) ? 'dmkt-table__total-row' : ''}">
-            <td class="dmkt-table__concept">${row.concepto}</td>
-            ${row.valores.map((value, index) => `<td class="${tdClass(value, index)}">${clean(value)}</td>`).join('')}
-          </tr>`).join('');
-        return `<div class="dmkt-table-wrap"><table class="dmkt-table"><thead><tr><th scope="col">Concepto</th>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
-      }
-
-      function setOpen(block, open) {
-        const content = block.querySelector('.dmkt-block__content');
-        const button = block.querySelector('.dmkt-block__toggle');
-        block.classList.toggle('is-open', open);
-        button.setAttribute('aria-expanded', String(open));
-        content.style.maxHeight = open ? `${content.scrollHeight}px` : '0px';
-      }
-
-      accordion.innerHTML = groups.map((group, index) => {
-        const total2026 = group.rows[group.rows.length - 1]?.valores[12] || '';
-        return `
-          <article class="dmkt-block ${index === 0 ? 'is-open' : ''}" data-tone="${group.tone}">
-            <button class="dmkt-block__toggle" type="button" aria-expanded="${index === 0 ? 'true' : 'false'}">
-              <span class="dmkt-block__icon">${iconSvg}</span>
-              <span><span class="dmkt-block__title">${group.title}</span><span class="dmkt-block__eyebrow">${group.eyebrow}</span></span>
-              <span class="dmkt-block__total">${clean(total2026)}</span>
-              ${chevronSvg}
-            </button>
-            <div class="dmkt-block__content"><div class="dmkt-block__inner">${tableFor(group)}</div></div>
-          </article>`;
-      }).join('');
-
-      root.querySelectorAll('.dmkt-block').forEach((block) => {
-        const isOpen = block.classList.contains('is-open');
-        setOpen(block, isOpen);
-        block.querySelector('.dmkt-block__toggle').addEventListener('click', () => setOpen(block, !block.classList.contains('is-open')));
-      });
-
-      root.querySelector('[data-dmkt-expand]').addEventListener('click', () => root.querySelectorAll('.dmkt-block').forEach((block) => setOpen(block, true)));
-      root.querySelector('[data-dmkt-collapse]').addEventListener('click', () => root.querySelectorAll('.dmkt-block').forEach((block) => setOpen(block, false)));
-      window.addEventListener('resize', () => root.querySelectorAll('.dmkt-block.is-open').forEach((block) => setOpen(block, true)));
-    })();
-  </script>
-</section>
+<!-- Resultados DMKT (Acordeón con todos los datos) -->
 <section class="resultados-dmkt">
   <button class="dmkt-toggle" type="button" aria-expanded="false">
-    <span>Resultados DMKT</span>
+    <span>Resultados DMKT: Ingresos, costes, utilidad y ROI</span>
     <span class="dmkt-icon">+</span>
   </button>
 
   <div class="dmkt-content">
     <div class="dmkt-table-wrap">
       <table class="dmkt-table">
+        <thead>
+          <tr>
+            <th>Concepto</th><th>Ene</th><th>Feb</th><th>Mar</th><th>Abr</th><th>May</th><th>Jun</th><th>Jul</th><th>Ago</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dic</th><th>Total 2026</th><th>Acum. Año 2</th><th>Acum. Año 3</th>
+          </tr>
+        </thead>
         <tbody>
-          <tr>
-            <th>Total ingresos</th>
-            <td></td>
-            <td></td>
-            <td>€701,60</td>
-            <td>€3.465,00</td>
-            <td>€6.300,00</td>
-            <td>€8.032,50</td>
-            <td>€54.495,00</td>
-            <td>€48.037,50</td>
-            <td>€33.862,50</td>
-            <td>€61.056,75</td>
-            <td>€70.269,00</td>
-            <td>€92.737,50</td>
-            <td><strong>€378.957,35</strong></td>
-            <td><strong>€947.393,38</strong></td>
-            <td><strong>€1.610.568,74</strong></td>
-          </tr>
-
-          <tr>
-            <th>Total costes</th>
-            <td>€6.400,00</td>
-            <td>€1.800,00</td>
-            <td>€6.300,00</td>
-            <td>€15.053,77</td>
-            <td>€2.605,00</td>
-            <td>€3.553,77</td>
-            <td>€23.426,05</td>
-            <td>€6.127,00</td>
-            <td>€5.221,31</td>
-            <td>€12.853,10</td>
-            <td>€7.810,00</td>
-            <td>€8.850,00</td>
-            <td><strong>€100.000</strong></td>
-            <td><strong>€160.215</strong></td>
-            <td><strong>€236.317</strong></td>
-          </tr>
-
-          <tr>
-            <th>Utilidad</th>
-            <td>-€6.400,00</td>
-            <td>-€1.800,00</td>
-            <td>-€5.598,40</td>
-            <td>-€11.588,77</td>
-            <td>€3.695,00</td>
-            <td>€4.478,73</td>
-            <td>€31.068,95</td>
-            <td>€41.910,50</td>
-            <td>€28.641,19</td>
-            <td>€48.203,65</td>
-            <td>€62.459,00</td>
-            <td>€83.887,50</td>
-            <td><strong>€278.957,35</strong></td>
-            <td><strong>€787.178,38</strong></td>
-            <td><strong>€1.374.251,74</strong></td>
-          </tr>
-
-          <tr>
-            <th>ROI</th>
-            <td>-100,00%</td>
-            <td>-100,00%</td>
-            <td>-88,86%</td>
-            <td>-76,98%</td>
-            <td>141,84%</td>
-            <td>126,03%</td>
-            <td>132,63%</td>
-            <td>684,03%</td>
-            <td>548,54%</td>
-            <td>375,04%</td>
-            <td>799,73%</td>
-            <td>947,88%</td>
-            <td><strong>278,96%</strong></td>
-            <td><strong>491,33%</strong></td>
-            <td><strong>581,53%</strong></td>
-          </tr>
-
-          <tr>
-            <th>ROAS</th>
-            <td>0,00%</td>
-            <td>0,00%</td>
-            <td>11,14%</td>
-            <td>23,02%</td>
-            <td>241,84%</td>
-            <td>226,03%</td>
-            <td>232,63%</td>
-            <td>784,03%</td>
-            <td>648,54%</td>
-            <td>475,04%</td>
-            <td>899,73%</td>
-            <td>1047,88%</td>
-            <td><strong>378,96%</strong></td>
-            <td><strong>591,33%</strong></td>
-            <td><strong>681,53%</strong></td>
-          </tr>
+          <tr><th>Total ingresos</th><td></td><td></td><td>€701,60</td><td>€3.465,00</td><td>€6.300,00</td><td>€8.032,50</td><td>€54.495,00</td><td>€48.037,50</td><td>€33.862,50</td><td>€61.056,75</td><td>€70.269,00</td><td>€92.737,50</td><td><strong>€378.957,35</strong></td><td><strong>€947.393,38</strong></td><td><strong>€1.610.568,74</strong></td></tr>
+          <tr><th>Total costes</th><td>€6.400,00</td><td>€1.800,00</td><td>€6.300,00</td><td>€15.053,77</td><td>€2.605,00</td><td>€3.553,77</td><td>€23.426,05</td><td>€6.127,00</td><td>€5.221,31</td><td>€12.853,10</td><td>€7.810,00</td><td>€8.850,00</td><td><strong>€100.000</strong></td><td><strong>€160.215</strong></td><td><strong>€236.317</strong></td></tr>
+          <tr><th>Utilidad</th><td>-€6.400,00</td><td>-€1.800,00</td><td>-€5.598,40</td><td>-€11.588,77</td><td>€3.695,00</td><td>€4.478,73</td><td>€31.068,95</td><td>€41.910,50</td><td>€28.641,19</td><td>€48.203,65</td><td>€62.459,00</td><td>€83.887,50</td><td><strong>€278.957,35</strong></td><td><strong>€787.178,38</strong></td><td><strong>€1.374.251,74</strong></td></tr>
+          <tr><th>ROI</th><td>-100,00%</td><td>-100,00%</td><td>-88,86%</td><td>-76,98%</td><td>141,84%</td><td>126,03%</td><td>132,63%</td><td>684,03%</td><td>548,54%</td><td>375,04%</td><td>799,73%</td><td>947,88%</td><td><strong>278,96%</strong></td><td><strong>491,33%</strong></td><td><strong>581,53%</strong></td></tr>
+          <tr><th>ROAS</th><td>0,00%</td><td>0,00%</td><td>11,14%</td><td>23,02%</td><td>241,84%</td><td>226,03%</td><td>232,63%</td><td>784,03%</td><td>648,54%</td><td>475,04%</td><td>899,73%</td><td>1047,88%</td><td><strong>378,96%</strong></td><td><strong>591,33%</strong></td><td><strong>681,53%</strong></td></tr>
         </tbody>
       </table>
     </div>
@@ -1331,72 +1134,76 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
   .resultados-dmkt {
     margin: 40px 0;
     border: 1px solid #d8d8d8;
+    border-radius: 8px;
     background: #fff;
+    overflow: hidden;
   }
-
   .dmkt-toggle {
     width: 100%;
     padding: 18px 22px;
     border: 0;
     background: #111;
     color: #fff;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     text-align: left;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: background 0.2s;
   }
-
+  .dmkt-toggle:hover { background: #222; }
   .dmkt-icon {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1;
+    transition: transform 0.3s ease;
   }
-
+  .resultados-dmkt.active .dmkt-icon { transform: rotate(45deg); }
   .dmkt-content {
-    display: none;
-    padding: 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
   }
-
   .resultados-dmkt.active .dmkt-content {
-    display: block;
+    max-height: 2000px; /* Suficiente para tablas largas */
+    padding: 16px;
   }
-
-  .resultados-dmkt.active .dmkt-icon {
-    transform: rotate(45deg);
-  }
-
   .dmkt-table-wrap {
     overflow-x: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
   }
-
   .dmkt-table {
     width: 100%;
-    min-width: 1200px;
+    min-width: 1000px;
     border-collapse: collapse;
-    font-size: 14px;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, sans-serif;
   }
-
-  .dmkt-table th,
-  .dmkt-table td {
-    border: 1px solid #b8b8b8;
-    padding: 8px 10px;
+  .dmkt-table th, .dmkt-table td {
+    border: 1px solid #e5e7eb;
+    padding: 10px 12px;
     text-align: right;
     white-space: nowrap;
   }
-
   .dmkt-table th {
     text-align: left;
-    font-weight: 700;
-    background: #f5f5f5;
+    font-weight: 600;
+    background: #f9fafb;
     position: sticky;
     left: 0;
-    z-index: 1;
+    z-index: 2;
   }
-
-  .dmkt-table tr:last-child {
+  .dmkt-table thead th {
+    position: sticky;
+    top: 0;
+    background: #f9fafb;
+    z-index: 3;
+  }
+  .dmkt-table tr:last-child td, .dmkt-table tr:last-child th {
     font-weight: 700;
+    background: rgba(16,185,129,0.05);
   }
 </style>
 
@@ -1405,8 +1212,11 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
     button.addEventListener("click", () => {
       const section = button.closest(".resultados-dmkt");
       const isOpen = section.classList.toggle("active");
-
       button.setAttribute("aria-expanded", isOpen);
+      // Asegura que el scroll no se bloquee en tablas largas
+      if (isOpen) {
+        setTimeout(() => section.scrollIntoView({ behavior: "smooth", block: "nearest" }), 300);
+      }
     });
   });
 </script>
