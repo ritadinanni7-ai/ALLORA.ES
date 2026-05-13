@@ -1217,6 +1217,199 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
     })();
   </script>
 </section>
+<section class="resultados-dmkt">
+  <button class="dmkt-toggle" type="button" aria-expanded="false">
+    <span>Resultados DMKT</span>
+    <span class="dmkt-icon">+</span>
+  </button>
+
+  <div class="dmkt-content">
+    <div class="dmkt-table-wrap">
+      <table class="dmkt-table">
+        <tbody>
+          <tr>
+            <th>Total ingresos</th>
+            <td></td>
+            <td></td>
+            <td>€701,60</td>
+            <td>€3.465,00</td>
+            <td>€6.300,00</td>
+            <td>€8.032,50</td>
+            <td>€54.495,00</td>
+            <td>€48.037,50</td>
+            <td>€33.862,50</td>
+            <td>€61.056,75</td>
+            <td>€70.269,00</td>
+            <td>€92.737,50</td>
+            <td><strong>€378.957,35</strong></td>
+            <td><strong>€947.393,38</strong></td>
+            <td><strong>€1.610.568,74</strong></td>
+          </tr>
+
+          <tr>
+            <th>Total costes</th>
+            <td>€6.400,00</td>
+            <td>€1.800,00</td>
+            <td>€6.300,00</td>
+            <td>€15.053,77</td>
+            <td>€2.605,00</td>
+            <td>€3.553,77</td>
+            <td>€23.426,05</td>
+            <td>€6.127,00</td>
+            <td>€5.221,31</td>
+            <td>€12.853,10</td>
+            <td>€7.810,00</td>
+            <td>€8.850,00</td>
+            <td><strong>€100.000</strong></td>
+            <td><strong>€160.215</strong></td>
+            <td><strong>€236.317</strong></td>
+          </tr>
+
+          <tr>
+            <th>Utilidad</th>
+            <td>-€6.400,00</td>
+            <td>-€1.800,00</td>
+            <td>-€5.598,40</td>
+            <td>-€11.588,77</td>
+            <td>€3.695,00</td>
+            <td>€4.478,73</td>
+            <td>€31.068,95</td>
+            <td>€41.910,50</td>
+            <td>€28.641,19</td>
+            <td>€48.203,65</td>
+            <td>€62.459,00</td>
+            <td>€83.887,50</td>
+            <td><strong>€278.957,35</strong></td>
+            <td><strong>€787.178,38</strong></td>
+            <td><strong>€1.374.251,74</strong></td>
+          </tr>
+
+          <tr>
+            <th>ROI</th>
+            <td>-100,00%</td>
+            <td>-100,00%</td>
+            <td>-88,86%</td>
+            <td>-76,98%</td>
+            <td>141,84%</td>
+            <td>126,03%</td>
+            <td>132,63%</td>
+            <td>684,03%</td>
+            <td>548,54%</td>
+            <td>375,04%</td>
+            <td>799,73%</td>
+            <td>947,88%</td>
+            <td><strong>278,96%</strong></td>
+            <td><strong>491,33%</strong></td>
+            <td><strong>581,53%</strong></td>
+          </tr>
+
+          <tr>
+            <th>ROAS</th>
+            <td>0,00%</td>
+            <td>0,00%</td>
+            <td>11,14%</td>
+            <td>23,02%</td>
+            <td>241,84%</td>
+            <td>226,03%</td>
+            <td>232,63%</td>
+            <td>784,03%</td>
+            <td>648,54%</td>
+            <td>475,04%</td>
+            <td>899,73%</td>
+            <td>1047,88%</td>
+            <td><strong>378,96%</strong></td>
+            <td><strong>591,33%</strong></td>
+            <td><strong>681,53%</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<style>
+  .resultados-dmkt {
+    margin: 40px 0;
+    border: 1px solid #d8d8d8;
+    background: #fff;
+  }
+
+  .dmkt-toggle {
+    width: 100%;
+    padding: 18px 22px;
+    border: 0;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dmkt-icon {
+    font-size: 26px;
+    line-height: 1;
+  }
+
+  .dmkt-content {
+    display: none;
+    padding: 18px;
+  }
+
+  .resultados-dmkt.active .dmkt-content {
+    display: block;
+  }
+
+  .resultados-dmkt.active .dmkt-icon {
+    transform: rotate(45deg);
+  }
+
+  .dmkt-table-wrap {
+    overflow-x: auto;
+  }
+
+  .dmkt-table {
+    width: 100%;
+    min-width: 1200px;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  .dmkt-table th,
+  .dmkt-table td {
+    border: 1px solid #b8b8b8;
+    padding: 8px 10px;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .dmkt-table th {
+    text-align: left;
+    font-weight: 700;
+    background: #f5f5f5;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+  }
+
+  .dmkt-table tr:last-child {
+    font-weight: 700;
+  }
+</style>
+
+<script>
+  document.querySelectorAll(".resultados-dmkt .dmkt-toggle").forEach((button) => {
+    button.addEventListener("click", () => {
+      const section = button.closest(".resultados-dmkt");
+      const isOpen = section.classList.toggle("active");
+
+      button.setAttribute("aria-expanded", isOpen);
+    });
+  });
+</script>
 
 
 <!-- FINANZAS -->
