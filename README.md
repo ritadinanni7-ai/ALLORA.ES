@@ -835,7 +835,7 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
 <div class="axis-x"></div>
 <div class="axis-y"></div>
 <div class="pos-dot" style="bottom:18%;left:20%"><div class="label">Pájara Pinta<span class="price">$120K - 300K</span></div></div>
-<div class="pos-dot" style="bottom:35%;left:65%"><div class="label" style="background:var(--primary);color:#fff">Allora<span class="price" style="color:rgba(255,255,255,.8)">$109K - 750K · Lujo accesible</span></div></div>
+<div class="pos-dot" style="bottom:74%;left:58%"><div class="label" style="background:var(--primary);color:#fff">Allora<span class="price" style="color:rgba(255,255,255,.8)">$109K - 750K · Exclusividad accesible</span></div></div>
 <div class="pos-dot" style="bottom:55%;left:72%"><div class="label">Daniela Salcedo<span class="price">$450K - 900K</span></div></div>
 <div class="pos-dot" style="bottom:70%;left:88%"><div class="label">Filamental<span class="price">$600K - 1.2M</span></div></div>
 </div>
