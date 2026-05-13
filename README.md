@@ -1073,368 +1073,150 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
   </div>
 </section>
 
-<!-- Panel de presupuesto de dmkt -->
-<div class="table-wrapper">
-  <table class="finance-table">
-    <thead>
-      <tr>
-        <th></th>
-        <th>ENERO</th>
-        <th>FEBRERO</th>
-        <th>MARZO</th>
-        <th>ABRIL</th>
-        <th>MAYO</th>
-        <th>JUNIO</th>
-        <th>JULIO</th>
-        <th>AGOSTO</th>
-        <th>SEPTIEMBRE</th>
-        <th>OCTUBRE</th>
-        <th>NOVIEMBRE</th>
-        <th>DICIEMBRE</th>
-        <th>TOTAL 2026</th>
-        <th>2027</th>
-        <th>2028</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <!-- SEZIONE ENTRATE -->
-      <tr class="section-row income" data-toggle="income">
-        <td><button class="toggle">+</button> TOTAL INGRESOS</td>
-        <td>-</td><td>-</td><td>€701,60</td><td>€3.465,00</td><td>€6.300,00</td>
-        <td>€8.032,50</td><td>€54.495,00</td><td>€48.037,50</td>
-        <td>€33.862,50</td><td>€61.056,75</td><td>€70.269,00</td>
-        <td>€92.737,50</td><td>€378.957,35</td><td>€947.393,38</td><td>€1.610.568,74</td>
-      </tr>
-
-      <tr class="child income-child">
-        <td>VENTAS POR E-COMMERCE</td>
-        <td>-</td><td>-</td><td>4</td><td>21</td><td>38</td><td>50</td><td>291</td>
-        <td>215</td><td>130</td><td>229</td><td>326</td><td>449</td>
-        <td>1753</td><td>4382,5</td><td>7450,25</td>
-      </tr>
-
-      <tr class="child income-child">
-        <td>INGRESOS POR E-COMMERCE</td>
-        <td>-</td><td>-</td><td>€701,60</td><td>€3.307,50</td><td>€5.985,00</td>
-        <td>€7.875,00</td><td>€45.832,50</td><td>€33.862,50</td>
-        <td>€20.475,00</td><td>€36.425,00</td><td>€52.419,00</td>
-        <td>€72.507,50</td><td>€279.391,10</td><td>€698.477,75</td><td>€1.187.412,18</td>
-      </tr>
-
-      <tr class="child income-child">
-        <td>VENTAS POR AFILIACIÓN</td>
-        <td>-</td><td>-</td><td>-</td><td>1</td><td>2</td><td>1</td><td>55</td>
-        <td>90</td><td>85</td><td>95</td><td>-</td><td>-</td>
-        <td>329</td><td>822,5</td><td>1398,25</td>
-      </tr>
-
-      <!-- SEZIONE COSTI VARIABILI -->
-      <tr class="section-row variable" data-toggle="variable">
-        <td><button class="toggle">+</button> TOTAL COSTES VARIABLES</td>
-        <td>€5.600,00</td><td>€1.000,00</td><td>€3.000,00</td><td>€2.551,77</td>
-        <td>€2.602,00</td><td>€3.551,77</td><td>€14.547,05</td><td>€5.799,00</td>
-        <td>€5.000,31</td><td>€8.768,10</td><td>€7.600,00</td><td>€8.550,00</td>
-        <td>€68.570</td><td>€104.780</td><td>€149.960</td>
-      </tr>
-
-      <tr class="child variable-child">
-        <td>PAID MEDIA</td>
-        <td>€1.000,00</td><td>€1.000,00</td><td>€3.000,00</td><td>€2.500,00</td>
-        <td>€2.500,00</td><td>€3.500,00</td><td>€7.500,00</td><td>€500,00</td>
-        <td>€300,00</td><td>€1.050,00</td><td>€4.500,00</td><td>€5.000,00</td>
-        <td>€32.350</td><td>€48.525</td><td>€58.230</td>
-      </tr>
-
-      <tr class="child variable-child">
-        <td>GOOGLE ADS</td>
-        <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-        <td>€700,00</td><td>€640,00</td><td>€300,00</td><td>€800,00</td>
-        <td>€1.000,00</td><td>€1.400,00</td><td>€4.840</td><td>€7.260</td><td>€9.438</td>
-      </tr>
-
-      <tr class="child variable-child">
-        <td>INFLUENCER MARKETING</td>
-        <td>€3.000,00</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-        <td>€3.500,00</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-        <td>€6.500</td><td>€9.750</td><td>€16.575</td>
-      </tr>
-
-      <!-- SEZIONE COSTI FISSI -->
-      <tr class="section-row fixed" data-toggle="fixed">
-        <td><button class="toggle">+</button> TOTAL COSTES FIJOS</td>
-        <td>€800,00</td><td>€800,00</td><td>€3.300,00</td><td>€12.502,00</td>
-        <td>€3,00</td><td>€2,00</td><td>€8.879,00</td><td>€328,00</td>
-        <td>€221,00</td><td>€4.085,00</td><td>€210,00</td><td>€300,00</td>
-        <td>€31.430</td><td>€55.435</td><td>€86.358</td>
-      </tr>
-
-      <tr class="child fixed-child">
-        <td>MAILCHIMP</td>
-        <td>-</td><td>-</td><td>-</td><td>€10.000,00</td><td>-</td><td>-</td>
-        <td>€4.850,00</td><td>-</td><td>-</td><td>€2.350,00</td><td>-</td><td>-</td>
-        <td>€17.200</td><td>€43.000</td><td>€73.100</td>
-      </tr>
-
-      <tr class="child fixed-child">
-        <td>AGENCIA SEO</td>
-        <td>€800,00</td><td>€800,00</td><td>€800,00</td><td>-</td><td>-</td><td>-</td>
-        <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-        <td>€2.400</td><td>€2.400</td><td>€2.400</td>
-      </tr>
-
-      <!-- RIEPILOGO -->
-      <tr class="summary">
-        <td>Total ingresos</td>
-        <td>-</td><td>-</td><td>€701,60</td><td>€3.465,00</td><td>€6.300,00</td>
-        <td>€8.032,50</td><td>€54.495,00</td><td>€48.037,50</td>
-        <td>€33.862,50</td><td>€61.056,75</td><td>€70.269,00</td>
-        <td>€92.737,50</td><td>€378.957,35</td><td>€947.393,38</td><td>€1.610.568,74</td>
-      </tr>
-
-      <tr class="summary">
-        <td>Total costes</td>
-        <td>€6.400,00</td><td>€1.800,00</td><td>€6.300,00</td><td>€15.053,77</td>
-        <td>€2.605,00</td><td>€3.553,77</td><td>€23.426,05</td><td>€6.127,00</td>
-        <td>€5.221,31</td><td>€12.853,10</td><td>€7.810,00</td><td>€8.850,00</td>
-        <td>€100.000</td><td>€160.215</td><td>€236.317</td>
-      </tr>
-
-      <tr class="summary">
-        <td>Utilidad</td>
-        <td>-€6.400,00</td><td>-€1.800,00</td><td>-€5.598,40</td><td>-€11.588,77</td>
-        <td>€3.695,00</td><td>€4.478,73</td><td>€31.068,95</td><td>€41.910,50</td>
-        <td>€28.641,19</td><td>€48.203,65</td><td>€62.459,00</td><td>€83.887,50</td>
-        <td>€278.957,35</td><td>€787.178,38</td><td>€1.374.251,74</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<style>
-  .table-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    border: 1px solid #333;
-    font-family: Arial, sans-serif;
+      }
+    ]
+  },
+  {
+    "title": "Resultado global",
+    "eyebrow": "Ingresos, costes, utilidad y ROI",
+    "tone": "slate",
+    "rows": [
+      {
+        "concepto": "Total ingresos",
+        "valores": [
+          "",
+          "",
+          "€701,60",
+          "€3.465,00",
+          "€6.300,00",
+          "€ 8.032,50",
+          "€54.495,00",
+          "€48.037,50",
+          "€33.862,50",
+          "€61.056,75",
+          "€70.269,00",
+          "€92.737,50",
+          "€378.957,35",
+          "€947.393,38",
+          "€1.610.568,74"
+        ]
+      },
+      {
+        "concepto": "Total costes V + F",
+        "valores": [
+          "€14.430,00",
+          "€15.920,00",
+          "€14.740,00",
+          "€32.763,77",
+          "€29.596,00",
+          "€11.993,77",
+          "€50.494,05",
+          "€30.083,00",
+          "€32.245,31",
+          "€52.281,10",
+          "€47.249,00",
+          "€23.624,00",
+          "€355.420",
+          "€656.820",
+          "€ 1.030.584,00"
+        ]
+      },
+      {
+        "concepto": "Utilidad",
+        "valores": [
+          "-€14.430,00",
+          "-€15.920,00",
+          "-€14.038,40",
+          "-€29.298,77",
+          "-€23.296,00",
+          "-€ 3.961,27",
+          "€4.000,95",
+          "€17.954,50",
+          "€1.617,19",
+          "€8.775,65",
+          "€23.020,00",
+          "€69.113,50",
+          "€23.537,35",
+          "€290.573,38",
+          "€579.984,74"
+        ]
+      },
+      {
+        "concepto": "ROI",
+        "valores": [
+          "-100,00%",
+          "-100,00%",
+          "-95,24%",
+          "-89,42%",
+          "-78,71%",
+          "-33,03%",
+          "7,92%",
+          "59,68%",
+          "5,02%",
+          "16,79%",
+          "48,72%",
+          "292,56%",
+          "6,62%",
+          "44,24%",
+          "56,28%"
+        ]
+      }
+    ]
   }
+];
 
-  .finance-table {
-    width: 100%;
-    min-width: 1500px;
-    border-collapse: collapse;
-    font-size: 13px;
-    color: #111;
-  }
+      const iconSvg = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 19h16v2H4v-2Zm1-4h3V7H5v8Zm5 0h3V3h-3v12Zm5 0h3v-5h-3v5Z"/></svg>';
+      const chevronSvg = '<svg class="dmkt-block__chevron" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41Z"/></svg>';
+      const accordion = root.querySelector('[data-dmkt-accordion]');
 
-  .finance-table th,
-  .finance-table td {
-    border: 1px solid #999;
-    padding: 4px 6px;
-    text-align: right;
-    white-space: nowrap;
-  }
+      const clean = (value) => value && value.trim() ? value : '—';
+      const isTotalRow = (label) => /^(TOTAL|Total ingresos|Total costes|Utilidad|ROI)/.test(label);
+      const tdClass = (value, index) => [!value ? 'dmkt-table__empty' : '', index >= 12 ? 'dmkt-table__year' : ''].filter(Boolean).join(' ');
 
-  .finance-table th:first-child,
-  .finance-table td:first-child {
-    text-align: left;
-    min-width: 300px;
-    position: sticky;
-    left: 0;
-    background: #fff;
-    z-index: 1;
-  }
+      function tableFor(group) {
+        const head = columns.map((column) => `<th scope="col">${column}</th>`).join('');
+        const body = group.rows.map((row) => `
+          <tr class="${isTotalRow(row.concepto) ? 'dmkt-table__total-row' : ''}">
+            <td class="dmkt-table__concept">${row.concepto}</td>
+            ${row.valores.map((value, index) => `<td class="${tdClass(value, index)}">${clean(value)}</td>`).join('')}
+          </tr>`).join('');
+        return `<div class="dmkt-table-wrap"><table class="dmkt-table"><thead><tr><th scope="col">Concepto</th>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+      }
 
-  .finance-table thead th {
-    background: #f5f5f5;
-    font-weight: 700;
-    text-align: center;
-  }
+      function setOpen(block, open) {
+        const content = block.querySelector('.dmkt-block__content');
+        const button = block.querySelector('.dmkt-block__toggle');
+        block.classList.toggle('is-open', open);
+        button.setAttribute('aria-expanded', String(open));
+        content.style.maxHeight = open ? `${content.scrollHeight}px` : '0px';
+      }
 
-  .section-row {
-    font-weight: 700;
-    cursor: pointer;
-  }
+      accordion.innerHTML = groups.map((group, index) => {
+        const total2026 = group.rows[group.rows.length - 1]?.valores[12] || '';
+        return `
+          <article class="dmkt-block ${index === 0 ? 'is-open' : ''}" data-tone="${group.tone}">
+            <button class="dmkt-block__toggle" type="button" aria-expanded="${index === 0 ? 'true' : 'false'}">
+              <span class="dmkt-block__icon">${iconSvg}</span>
+              <span><span class="dmkt-block__title">${group.title}</span><span class="dmkt-block__eyebrow">${group.eyebrow}</span></span>
+              <span class="dmkt-block__total">${clean(total2026)}</span>
+              ${chevronSvg}
+            </button>
+            <div class="dmkt-block__content"><div class="dmkt-block__inner">${tableFor(group)}</div></div>
+          </article>`;
+      }).join('');
 
-  .section-row td:first-child {
-    background: inherit;
-  }
-
-  .income {
-    background: #a8c995;
-  }
-
-  .variable,
-  .fixed {
-    background: #c9a0b5;
-  }
-
-  .summary {
-    font-weight: 700;
-    background: #fafafa;
-  }
-
-  .toggle {
-    width: 22px;
-    height: 22px;
-    margin-right: 6px;
-    border: 1px solid #555;
-    background: #fff;
-    cursor: pointer;
-    font-weight: 700;
-    line-height: 1;
-  }
-
-  .child {
-    display: none;
-  }
-
-  .child.is-visible {
-    display: table-row;
-  }
-
-  @media (max-width: 768px) {
-    .finance-table {
-      font-size: 12px;
-      min-width: 1200px;
-    }
-
-    .finance-table th,
-    .finance-table td {
-      padding: 4px;
-    }
-  }
-</style>
-
-<script>
-  document.querySelectorAll(".section-row").forEach(function (row) {
-    row.addEventListener("click", function () {
-      const group = row.dataset.toggle;
-      const children = document.querySelectorAll("." + group + "-child");
-      const button = row.querySelector(".toggle");
-
-      children.forEach(function (child) {
-        child.classList.toggle("is-visible");
+      root.querySelectorAll('.dmkt-block').forEach((block) => {
+        const isOpen = block.classList.contains('is-open');
+        setOpen(block, isOpen);
+        block.querySelector('.dmkt-block__toggle').addEventListener('click', () => setOpen(block, !block.classList.contains('is-open')));
       });
 
-      button.textContent = button.textContent === "+" ? "−" : "+";
-    });
-  });
-</script>
-
-<!-- SEZIONE COSTI VARIABILI NEGOCIO -->
-<tr class="section-row business-variable" data-toggle="business-variable">
-  <td><button class="toggle">+</button> TOTAL COSTES VARIABLES NEGOCIO</td>
-  <td>-</td><td>€6.180,00</td><td>-</td><td>€9.270,00</td>
-  <td>€18.551,00</td><td>-</td><td>€18.628,00</td><td>€15.516,00</td>
-  <td>€18.584,00</td><td>€30.988,00</td><td>€30.999,00</td><td>€6.334,00</td>
-  <td>€155.050</td><td>€387.625</td><td>€658.963</td>
-</tr>
-
-<tr class="child business-variable-child">
-  <td>PIEZAS PRODUCIDAS</td>
-  <td>-</td><td>100</td><td>-</td><td>150</td><td>300</td><td>-</td>
-  <td>300</td><td>250</td><td>300</td><td>500</td><td>500</td><td>100</td>
-  <td>2500</td><td>6250</td><td>10625</td>
-</tr>
-
-<tr class="child business-variable-child">
-  <td>Metales y materias primas</td>
-  <td>-</td><td>€3.400,00</td><td>-</td><td>€5.100,00</td><td>€10.200,00</td><td>-</td>
-  <td>€10.200,00</td><td>€8.500,00</td><td>€10.200,00</td><td>€17.000,00</td><td>€17.000,00</td><td>€3.400,00</td>
-  <td>€85.000</td><td>€212.500</td><td>€361.250</td>
-</tr>
-
-<tr class="child business-variable-child">
-  <td>Mano de obra</td>
-  <td>-</td><td>€1.100,00</td><td>-</td><td>€1.650,00</td><td>€3.300,00</td><td>-</td>
-  <td>€3.300,00</td><td>€2.750,00</td><td>€3.300,00</td><td>€5.500,00</td><td>€5.500,00</td><td>€1.100,00</td>
-  <td>€27.500</td><td>€68.750</td><td>€116.875</td>
-</tr>
-
-<tr class="child business-variable-child">
-  <td>Packaging</td>
-  <td>-</td><td>€800,00</td><td>-</td><td>€1.200,00</td><td>€2.400,00</td><td>-</td>
-  <td>€2.400,00</td><td>€2.000,00</td><td>€2.400,00</td><td>€4.000,00</td><td>€4.000,00</td><td>€800,00</td>
-  <td>€20.000</td><td>€50.000</td><td>€85.000</td>
-</tr>
-
-<tr class="child business-variable-child">
-  <td>COSTES LOGÍSTICOS</td>
-  <td>-</td><td>€880,00</td><td>-</td><td>€1.320,00</td><td>€2.640,00</td><td>-</td>
-  <td>€2.640,00</td><td>€2.200,00</td><td>€2.640,00</td><td>€4.400,00</td><td>€4.400,00</td><td>€880,00</td>
-  <td>€22.000</td><td>€55.000</td><td>€93.500</td>
-</tr>
-
-<tr class="child business-variable-child">
-  <td>SERVICIO DE REPARACIÓN</td>
-  <td>-</td><td>-</td><td>-</td><td>-</td><td>€11,00</td><td>-</td>
-  <td>€88,00</td><td>€66,00</td><td>€44,00</td><td>€88,00</td><td>€99,00</td><td>€154,00</td>
-  <td>€550</td><td>€1.375</td><td>€2.338</td>
-</tr>
-
-<!-- SEZIONE COSTI FISSI NEGOCIO -->
-<tr class="section-row business-fixed" data-toggle="business-fixed">
-  <td><button class="toggle">+</button> TOTAL COSTES FIJOS NEGOCIO</td>
-  <td>€8.030,00</td><td>€7.940,00</td><td>€8.440,00</td><td>€8.440,00</td>
-  <td>€8.440,00</td><td>€8.440,00</td><td>€8.440,00</td><td>€8.440,00</td>
-  <td>€8.440,00</td><td>€8.440,00</td><td>€8.440,00</td><td>€8.440,00</td>
-  <td>€100.370</td><td>€108.980</td><td>€118.729</td>
-</tr>
-
-<tr class="child business-fixed-child">
-  <td>SALARIOS</td>
-  <td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td>
-  <td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td>
-  <td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td><td>€6.400,00</td>
-  <td>€76.800</td><td>€76.800</td><td>€76.800</td>
-</tr>
-
-<tr class="child business-fixed-child">
-  <td>ALQUILER</td>
-  <td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td>
-  <td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td>
-  <td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td><td>€1.000,00</td>
-  <td>€12.000</td><td>€12.000</td><td>€12.000</td>
-</tr>
-
-<tr class="child business-fixed-child">
-  <td>SEGURO DE JOYA</td>
-  <td>-</td><td>-</td><td>€500,00</td><td>€500,00</td><td>€500,00</td><td>€500,00</td>
-  <td>€500,00</td><td>€500,00</td><td>€500,00</td><td>€500,00</td><td>€500,00</td><td>€500,00</td>
-  <td>€5.000</td><td>€12.500</td><td>€21.250</td>
-</tr>
-
-<tr class="child business-fixed-child">
-  <td>ASESORÍA LEGAL Y FISCAL</td>
-  <td>€280,00</td><td>€280,00</td><td>€280,00</td><td>€280,00</td>
-  <td>€280,00</td><td>€280,00</td><td>€280,00</td><td>€280,00</td>
-  <td>€280,00</td><td>€280,00</td><td>€280,00</td><td>€280,00</td>
-  <td>€3.360</td><td>€3.360</td><td>€3.360</td>
-</tr>
-
-<tr class="child business-fixed-child">
-  <td>GASTOS DE SUMINISTROS</td>
-  <td>€185,00</td><td>€185,00</td><td>€185,00</td><td>€185,00</td>
-  <td>€185,00</td><td>€185,00</td><td>€185,00</td><td>€185,00</td>
-  <td>€185,00</td><td>€185,00</td><td>€185,00</td><td>€185,00</td>
-  <td>€2.220</td><td>€3.330</td><td>€4.329</td>
-</tr>
-
-<tr class="child business-fixed-child">
-  <td>SHOPIFY</td>
-  <td>€75,00</td><td>€75,00</td><td>€75,00</td><td>€75,00</td>
-  <td>€75,00</td><td>€75,00</td><td>€75,00</td><td>€75,00</td>
-  <td>€75,00</td><td>€75,00</td><td>€75,00</td><td>€75,00</td>
-  <td>€900</td><td>€900</td><td>€900</td>
-</tr>
-
-<tr class="child business-fixed-child">
-  <td>DOMINIO Y CORREO CORPORATIVO</td>
-  <td>€90,00</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-  <td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
-  <td>€90</td><td>€90</td><td>€90</td>
-</tr>
+      root.querySelector('[data-dmkt-expand]').addEventListener('click', () => root.querySelectorAll('.dmkt-block').forEach((block) => setOpen(block, true)));
+      root.querySelector('[data-dmkt-collapse]').addEventListener('click', () => root.querySelectorAll('.dmkt-block').forEach((block) => setOpen(block, false)));
+      window.addEventListener('resize', () => root.querySelectorAll('.dmkt-block.is-open').forEach((block) => setOpen(block, true)));
+    })();
+  </script>
+</section>
 
 
 <!-- FINANZAS -->
