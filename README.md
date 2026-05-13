@@ -944,7 +944,7 @@ JOYERÍA CON SIGNIFICADO · BOGOTÁ
 <h3 style="font-family:'Lora',serif;font-size:24px;margin-bottom:20px" class="anim">Distribución</h3>
 <div class="dist-grid anim d2">
 <div class="dist-card"><div class="lb">D2C Online</div><h4>E-commerce exclusivo Colombia</h4><ul><li>Envíos en 2-5 días hábiles vía Servientrega / Coordinadora</li><li>Envío gratis en compras > €45 (~$200.000 COP)</li><li>Costo fijo de €4.20 en compras menores</li></ul></div>
-<div class="dist-card"><div class="lb">Presencia física</div><h4>Pop-ups y ferias</h4><ul><li>Activaciones temporales en Bogotá y Medellín, ferias de diseño y experiencias inmersivas para fortalecer la conexión emocional.</li></ul></div>
+<div class="dist-card"><div class="lb">Presencia física</div><h4>Pop-ups y ferias</h4><ul><li>Activaciones temporales en Bogotá y Medellín, ferias de diseño y experiencias inmersivas para fortalecer la conexión emocional a partir del año 3.</li></ul></div>
 </div>
 </section>
 
